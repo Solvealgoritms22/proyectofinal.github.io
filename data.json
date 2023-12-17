@@ -1,0 +1,57 @@
+[
+    {
+        "icon": "fas fa-code",
+        "title": "Crear página HTML / Plain, con su Biografía (Incluir foto) y Horario de Clases en formato tabla Tarea",
+        "link_target": "https://solvealgoritms22.github.io/miprofile.github.io/"
+    },
+    {
+        "icon": "fas fa-code",
+        "title": "Crear una página web que muestre 102 Etiquetas HTML",
+        "link_target": "https://solvealgoritms22.github.io/102etiquetashtml.github.io/"
+    },
+    {
+        "icon": "fas fa-bars",
+        "title": "Hacer una estructura de menús usando CSS, tomando como ejemplo la página del Banco de Reservas Tarea",
+        "link_target": "https://solvealgoritms22.github.io/menudinamico.github.io/"
+    },
+    {
+        "icon": "fas fa-check-circle",
+        "title": "Utilizando el algoritmo del módulo 10, validar si una cédula es correcta Tarea",
+        "link_target": "https://solvealgoritms22.github.io/luhn.github.io/"
+    },
+    {
+        "icon": "fas fa-stream",
+        "title": "Crear menú dinámico, utilizando una estructura de datos (JSON, XML.....) Tarea",
+        "link_target": "https://solvealgoritms22.github.io/jsonmenu.github.io/"
+    },
+    {
+        "icon": "fas fa-wpforms",
+        "title": "Crear Formulario con múltiples páginas Tarea",
+        "link_target": "https://solvealgoritms22.github.io/form-multiple.github.io/"
+    },
+    {
+        "icon": "fas fa-qrcode",
+        "title": "Crear un formulario de contactos, generar código QR Tarea",
+        "link_target": "https://solvealgoritms22.github.io/qrcode.github.io/"
+    },
+    {
+        "icon": "fas fa-chart-bar",
+        "title": "Crear un formulario que integre una librería para realizar gráficos Tarea",
+        "link_target": "https://solvealgoritms22.github.io/grapichcharts.github.io/"
+    },
+    {
+        "icon": "fas fa-file-code",
+        "title": "Realizar un resumen de XML y su uso -Coloque Ejemplo-Tarea",
+        "link_target": "https://solvealgoritms22.github.io/resumenxml.github.io/"
+    },
+    {
+        "icon": "fas fa-file-alt",
+        "title": "Realizar un resumen de JSON y su uso -Coloque Ejemplo-Tarea",
+        "link_target": "https://solvealgoritms22.github.io/introducingjson.github.io/"
+    },
+    {
+        "icon": "fas fa-sync-alt",
+        "title": "Realizar un resumen de AJAX, poner ejemplo de funcionamientoTarea",
+        "link_target": "https://solvealgoritms22.github.io/ajaxexample.github.io/"
+    }
+]

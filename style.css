@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Para el efecto de fondo */
+}
+
+.body-background {
+    background-image: url('uasd.jpeg'); /* Asegúrate de cambiar esto por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: -1;
+}
+
+.menu-container {
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.85); /* Fondo ligeramente transparente */
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1; /* Para que el menú esté sobre el fondo desenfocado */
+}
+
+.menu-title {
+    font-weight: 600;
+    color: #333;
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+#menuDinamico {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menuDinamico a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    transition: background-color 0.3s ease;
+	text-align: left;
+}
+
+#menuDinamico a:hover {
+    background-color: #eeeeee;
+}
+
+#menuDinamico img {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+#menuDinamico a:hover img {
+    filter: grayscale(0%);
+}
+
+@media (max-width: 600px) {
+    .menu-title {
+        font-size: 24px;
+    }
+
+    #menuDinamico {
+        width: 100%;
+    }
+
+    #menuDinamico a {
+        justify-content: center;
+    }
+}
+
+
